@@ -4764,3 +4764,296 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/OpenXRInput.cs: b351db87f98ee399e568b78e0ed353e3 -> 
   custom:scripting/monoscript/fileName/OpenXREditorSettings.cs: 321e3a8126bc4b0248cbcecf63892f31 -> 
   custom:scripting/monoscript/fileName/OpenXRProjectValidation.cs: 181508e149a91a64c6dfdc447b97c322 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  4.777 seconds
+Refreshing native plugins compatible for Editor in 76.71 ms, found 11 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1899c5bd2a6d466081cd705bee01d689>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 24.149 seconds
+Domain Reload Profiling: 28886ms
+	BeginReloadAssembly (632ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (207ms)
+	RebuildCommonClasses (157ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (3831ms)
+		LoadAssemblies (4065ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (71ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (24150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1267ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (129ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (393ms)
+			ProcessInitializeOnLoadAttributes (563ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (54ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 69.45 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.51 ms.
+Unloading 7814 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (338.6 KB). Loaded Objects now: 8658.
+Memory consumption went from 309.9 MB to 309.6 MB.
+Total: 9.031400 ms (FindLiveObjects: 0.868600 ms CreateObjectMapping: 0.885500 ms MarkObjects: 7.050300 ms  DeleteObjects: 0.225700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MetaXRSubsampledLayout.cs: 6aaebe357f0f2d3b4a093057b5676315 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UWPCoreWindowBuildHooks.cs: 528ee0545204f8083d130ec04efc78bc -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeatureEditor.cs: fff340053bb2e94334d0d5989f2eb349 -> 
+  custom:scripting/monoscript/fileName/PalmPoseInteraction.cs: 6bd25b6029acb9127f25748cb0b6d2a8 -> 
+  custom:scripting/monoscript/fileName/OpenXRRuntime.cs: c3a00f9ce6a0283dcb391b83637adf44 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/OpenXRBuildProcessor.cs: 48dc0e114f75799c0d74bafe70808189 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureInternal.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/OpenXRSpaceSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DPadInteractionCustomEditor.cs: d93785eeae2b4d41d39f603bd6f9849d -> 
+  custom:scripting/monoscript/fileName/FeatureHelpers.cs: 0e8d07707daeed1da30b1605e903226b -> 
+  custom:scripting/monoscript/fileName/DebuggerState.cs: 41070b7a08cc178a9ea51324cdaf5b81 -> 
+  custom:scripting/monoscript/fileName/OpenXRHmd.cs: 1624687aa096b40d58d149d9c6304cca -> 
+  custom:scripting/monoscript/fileName/OculusTouchControllerProfile.cs: 03df51b5c781d1980f509408bae72bc8 -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerWindow.cs: 0bc1d5ee7ce2553d42d62861471f3c44 -> 
+  custom:scripting/monoscript/fileName/MetaXRSpaceWarp.cs: f1275400e64de7ac37cd4ecb60b92864 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BlurController.cs: 0e7d43a1ca0ca05a451901f511092dc4 -> 
+  custom:scripting/monoscript/fileName/OculusQuestFeature.cs: 041c3418dd65b8e99ca410c708996814 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSetManager.cs: 4f340a53d115a7e1888d00ddc4cd614b -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/OpenXRDevice.cs: 1b3be9b024fb29351711164fb0577202 -> 
+  custom:scripting/monoscript/fileName/HTCViveControllerProfile.cs: 575b921c71649e99576a05f0add9cf5d -> 
+  custom:scripting/monoscript/fileName/OpenXRRenderSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EyeGazeInteraction.cs: dc1f12620c8656649cfc16f13969f5fa -> 
+  custom:scripting/monoscript/fileName/OpenXRAnalytics.cs: 67d5de80ae8e3ee46bb1b4907783d54c -> 
+  custom:scripting/monoscript/fileName/MetaXRFeature.cs: 782504a5ed2525f1dc5bc090683802e5 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureAttribute.cs: cb6dde4b346c754b123a290cdf928c65 -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderNoPreInit.cs: 8f7a064e1e0bb6e17b9f5d171fe53dfc -> 
+  custom:scripting/monoscript/fileName/HandCommonPosesInteraction.cs: c984aa78f460c3bf39ec56bc9a0a414a -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerOpenXRFeatureEditor.cs: 26a9be57964b520d3a47d8c20db877e9 -> 
+  custom:scripting/monoscript/fileName/HPReverbG2ControllerProfile.cs: 6aadb5e22feaccfa77ef6db6c4d4541c -> 
+  custom:scripting/monoscript/fileName/BootConfig.cs: b2c4d54615a39b14509e601dd0f329ff -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MetaXRFeatureEnabler.cs: 411456e96065709848597c49ea9e7866 -> 
+  custom:scripting/monoscript/fileName/OpenXRPackageSettings.cs: 4f4aaba453bf105fb1c3c3d64247142d -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSetAttribute.cs: 9e20f05fe0a3688af8836175869f0bb7 -> 
+  custom:scripting/monoscript/fileName/HapticControl.cs: d7a5389cafde2a1337c58e2f0d91a837 -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeature.cs: b9c317336250afc5bb5fa2c2df269ea6 -> 
+  custom:scripting/monoscript/fileName/OpenXRRuntimeSelector.cs: 976a19637455f3c9d6af12ad00b783e3 -> 
+  custom:scripting/monoscript/fileName/BuildHelperUtils.cs: 619773c3d1b7f3f0ca7461f5c27242a8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerOpenXRFeature.cs: 8b269b64ad1c99e85d7f28185c15f7bb -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeatureBuildHooks.cs: 2ac755c66ffd4e4b7c22530386a7ba47 -> 
+  custom:scripting/monoscript/fileName/OpenXRInteractionFeature.cs: a60484418ad6b497996467bb6f98db73 -> 
+  custom:scripting/monoscript/fileName/DPadInteraction.cs: 93f85c8ba74c4199c8fc9b6e8c6fb8a6 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSettingsEditor.cs: 46f7bc9b6667349416d592c92274a2cd -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MetaQuestTouchProControllerProfile.cs: 9fffae235d4c14901711127c7daeb86c -> 
+  custom:scripting/monoscript/fileName/OpenXRConstants.cs: f878d042bd3999b796b9387b0c8a1032 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureUICommon.cs: 45f7a59cd9c5cd84e28e0f7a429879c2 -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderUI.cs: ebd8d704d5e26f054d43886c272cd005 -> 
+  custom:scripting/monoscript/fileName/WaitForRestartFinish.cs: 0e76bf389cf347a5d8d6432ec661895f -> 
+  custom:scripting/monoscript/fileName/KHRSimpleControllerProfile.cs: bcdcb81587b2075f7af2f75706b9e69a -> 
+  custom:scripting/monoscript/fileName/ConformanceAutomationFeature.cs: 97112e825fad9ed87f6a9c7acc231c0b -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderInternal.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/OpenXRMangementSettings.cs: 5a013b6c45b1e1d06085cb1496493b86 -> 
+  custom:scripting/monoscript/fileName/OpenXRNativeTypes.cs: 91cde5f962ea5dcb75652e72bac8769f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/KnownFeatureSets.cs: 2cf391597f07a52473981e9cc2b41b67 -> 
+  custom:scripting/monoscript/fileName/OpenXRProjectValidationRulesSetup.cs: 63c520149123eced22b6028c5ebd9d08 -> 
+  custom:scripting/monoscript/fileName/MicrosoftHandInteraction.cs: dac920740153b0163dda0f7e56920e40 -> 
+  custom:scripting/monoscript/fileName/PackageSettingsEditor.cs: 6212fddebb8f67c4da0f50592230839b -> 
+  custom:scripting/monoscript/fileName/OpenXRLoader.cs: 18020e98a4b26e822e0c5684b0251e04 -> 
+  custom:scripting/monoscript/fileName/ValveIndexControllerProfile.cs: f923b1771c835a70375d3505e818878d -> 
+  custom:scripting/monoscript/fileName/OculusQuestFeatureEditor.cs: af70b82209b4cf6ce20a2da2892dfc5f -> 
+  custom:scripting/monoscript/fileName/OpenXRChooseRuntimeLibraries.cs: 3923c2f1337a35d737ad0192eb46b432 -> 
+  custom:scripting/monoscript/fileName/MetaXREyeTrackedFoveationFeature.cs: 460473d07f8096e9f1344662eb214fcc -> 
+  custom:scripting/monoscript/fileName/MockRuntime.cs: 8e970d93da4762c7d57e9c9dd2b36dbb -> 
+  custom:scripting/monoscript/fileName/MetaXRFeatureSet.cs: e0d039fe304aca373e5d7962ffb0e24d -> 
+  custom:scripting/monoscript/fileName/BootConfigBuilder.cs: a174d8870c7a69fabc7d42a75b0f23aa -> 
+  custom:scripting/monoscript/fileName/MicrosoftMotionControllerProfile.cs: 6dcaa2067404bed7771687f2f9dfa057 -> 
+  custom:scripting/monoscript/fileName/OpenXRRestarter.cs: c236f3f43c026f409512d203b81e6184 -> 
+  custom:scripting/monoscript/fileName/OpenXRDiagnosticReport.cs: f43e8307d90025ed39c346ed63d1208d -> 
+  custom:scripting/monoscript/fileName/PoseControl.cs: 4ff0d325328ef40fb1693e34ac3358bf -> 26044499bf9bfd77ab38d92d33de1d80
+  custom:scripting/monoscript/fileName/OpenXRFeatureBuildHooks.cs: da31756dd3c74e69bcd7ed1a1983ed53 -> 
+  custom:scripting/monoscript/fileName/activateBallAgent.cs: 01365bace6b3d80fdda96fea10fb91b5 -> 
+  custom:scripting/monoscript/fileName/MetaXRFoveationFeature.cs: cfbe3655078beed7fcdedd0ad51afce0 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ModifyAndroidManifestMeta.cs: 3b920058e4dd8cbdb95cce4af271f981 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureEditor.cs: 01dd3fecc4e9c7ce9fb6af5d0948ba2a -> 
+  custom:scripting/monoscript/fileName/HandInteractionProfile.cs: 9c7649bd495ee99cc73ddacbe0a8cd95 -> 
+  custom:scripting/monoscript/fileName/ModifyAndroidManifestOculus.cs: 1d09740e7edd66fffc5895aae9e385d3 -> 
+  custom:scripting/monoscript/fileName/OpenXRInput.cs: b351db87f98ee399e568b78e0ed353e3 -> 
+  custom:scripting/monoscript/fileName/OpenXREditorSettings.cs: 321e3a8126bc4b0248cbcecf63892f31 -> 
+  custom:scripting/monoscript/fileName/OpenXRProjectValidation.cs: 181508e149a91a64c6dfdc447b97c322 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31179.524422 seconds.
+  path: Packages/com.meta.xr.mrutilitykit/package.json
+  artifactKey: Guid(48c64cd8e7ae94e39a1e235f1654b17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.mrutilitykit/package.json using Guid(48c64cd8e7ae94e39a1e235f1654b17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de65d4dec86f9f6964e6babf1a7c86d9') in 0.053823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.242755 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Animations/Hands/indexMask_r_.anim
+  artifactKey: Guid(93061e99c8743d54c95868e4a065e9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Animations/Hands/indexMask_r_.anim using Guid(93061e99c8743d54c95868e4a065e9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de62c985b0d92a1a616a2c3b7e7fca3') in 0.002615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.033341 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Animations/Hands/thumbMask_r_.anim
+  artifactKey: Guid(b2d37b44e3ecc304f931c7d0b08304a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Animations/Hands/thumbMask_r_.anim using Guid(b2d37b44e3ecc304f931c7d0b08304a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cdad18d0696b9d81d00ef634242252') in 0.002721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.047890 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Controllers.prefab
+  artifactKey: Guid(ad9b966cab9674348856e3325c3cb4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Controllers.prefab using Guid(ad9b966cab9674348856e3325c3cb4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce95be14d8f9e4f7a64c8d0f1c00b85') in 0.027263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands.prefab
+  artifactKey: Guid(b57bba87873244d4f875b20cb0460ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands.prefab using Guid(b57bba87873244d4f875b20cb0460ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3483cd36f8f2997e49ee83ef2f4b8785') in 0.007307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 32.376591 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/ControllerTurnerInteractor.prefab
+  artifactKey: Guid(122968827794c2b499a4451e4a8fa2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/ControllerTurnerInteractor.prefab using Guid(122968827794c2b499a4451e4a8fa2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66687d6ecd8e7cc0e8343203cea4a191') in 0.006310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/LocomotionControllerInteractorGroup.prefab
+  artifactKey: Guid(4841ffc0c0203424aa20389fa184badd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/LocomotionControllerInteractorGroup.prefab using Guid(4841ffc0c0203424aa20389fa184badd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e465cb6b22fd2512ed4f256e1f8fae04') in 0.562704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/TeleportHotspot with ViewPoint.prefab
+  artifactKey: Guid(9182fed62dbbec447a9b74fbb040b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/TeleportHotspot with ViewPoint.prefab using Guid(9182fed62dbbec447a9b74fbb040b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d3fe1d9052ea691773c762418e7f7e') in 0.085482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/TeleportHotspot.prefab
+  artifactKey: Guid(3181eb930f38eb7478bc2a19f785a48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/TeleportHotspot.prefab using Guid(3181eb930f38eb7478bc2a19f785a48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539582803e89ffce23b24d3997e53195') in 0.032159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/TeleportControllerInteractor.prefab
+  artifactKey: Guid(9dbe1cda60e679648bfee3898ce17d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/TeleportControllerInteractor.prefab using Guid(9dbe1cda60e679648bfee3898ce17d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12adf2a049c5b68f214ecf3bf42f6899') in 0.033838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 17.380039 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Ray/HandRayInteractor.prefab
+  artifactKey: Guid(d27ac1ffd4cdd7c40a39dcfa6012355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Ray/HandRayInteractor.prefab using Guid(d27ac1ffd4cdd7c40a39dcfa6012355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77b7668e5666d1ebb3983d61494cb9b') in 0.148917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 7.405972 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/VelocityCalculators/ControllerVelocityCalculator.prefab
+  artifactKey: Guid(b6e5411f1b2c1fd4ab99a43d2142ea16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/VelocityCalculators/ControllerVelocityCalculator.prefab using Guid(b6e5411f1b2c1fd4ab99a43d2142ea16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1d7affc523ee6a544ee81702f4e1e1') in 0.004745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 23.248388 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRControllerDrivenHands.prefab
+  artifactKey: Guid(bf187b68367fbbc4680e2f3a3677e9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRControllerDrivenHands.prefab using Guid(bf187b68367fbbc4680e2f3a3677e9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324de76a47064349457a33f934ed1cbe') in 0.975790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3109
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRInteractionComprehensive.prefab
+  artifactKey: Guid(314f6e1da20902f4ba50509fa6eb8fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRInteractionComprehensive.prefab using Guid(314f6e1da20902f4ba50509fa6eb8fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd27a40da81d87d26a066b6b5b27fd0') in 0.589697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7708
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
