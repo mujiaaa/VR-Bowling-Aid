@@ -21,7 +21,7 @@ public class DistanceBasedCanvasController : MonoBehaviour
 
     private bool isFading = false;
     private bool isWithinRange = false;
-    private Graphic[] graphics; // Array to hold all UI elements
+    public Graphic[] graphics; // Array to hold all UI elements
 
     private void Start()
     {
@@ -150,17 +150,17 @@ public class DistanceBasedCanvasController : MonoBehaviour
 
     private string GetBallRecommendation(float weight)
     {
-        if (weight < 100)
+        if (weight < 80)
         {
-            return "light";
+            return "blue and yellow";
         }
-        else if (weight < 150)
+        else if (weight < 230)
                 {
-            return "medium";
+            return "purple and white";
         }
         else
         {
-            return "heavy";
+            return "red and grey";
         }
     }
 }
