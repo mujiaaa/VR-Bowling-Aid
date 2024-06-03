@@ -5578,13 +5578,13 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 81416736}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5593,13 +5593,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 81416736}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5749,6 +5749,18 @@ MonoBehaviour:
   lineRenderer: {fileID: 0}
   numPoints: 50
   timeStep: 0.1
+--- !u!114 &81416736 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7308250259625292380, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81416727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &83754862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18089,13 +18101,13 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 298852661}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18104,13 +18116,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 298852661}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18260,6 +18272,18 @@ MonoBehaviour:
   lineRenderer: {fileID: 0}
   numPoints: 50
   timeStep: 0.1
+--- !u!114 &298852661 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1618313317852929062, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298852652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &358016088
 GameObject:
   m_ObjectHideFlags: 0
@@ -27300,13 +27324,13 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 762156157}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27315,13 +27339,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 762156157}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27471,6 +27495,18 @@ MonoBehaviour:
   lineRenderer: {fileID: 0}
   numPoints: 50
   timeStep: 0.1
+--- !u!114 &762156157 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1828656145344487527, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762156148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &773595265
 GameObject:
   m_ObjectHideFlags: 0
@@ -32588,13 +32624,13 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 800571407}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32603,13 +32639,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 800571407}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32759,6 +32795,18 @@ MonoBehaviour:
   lineRenderer: {fileID: 0}
   numPoints: 50
   timeStep: 0.1
+--- !u!114 &800571407 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4119917327171616916, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800571398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &819054510
 GameObject:
   m_ObjectHideFlags: 0
@@ -37081,15 +37129,9 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
-  lineRenderer: {fileID: 1161996547}
+  lineRenderer: {fileID: 0}
   numPoints: 50
   timeStep: 0.1
---- !u!120 &1161996547 stripped
-LineRenderer:
-  m_CorrespondingSourceObject: {fileID: 33590053190777780, guid: 42299aadd6818954289c8f673fbe756a,
-    type: 3}
-  m_PrefabInstance: {fileID: 6266786443856961131}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1161996548 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3663796779274786456, guid: 42299aadd6818954289c8f673fbe756a,
@@ -37264,13 +37306,13 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1171630293}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -37279,13 +37321,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1171630293}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -37435,6 +37477,18 @@ MonoBehaviour:
   lineRenderer: {fileID: 0}
   numPoints: 50
   timeStep: 0.1
+--- !u!114 &1171630293 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2691752335806774371, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171630284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1190105009
 GameObject:
   m_ObjectHideFlags: 0
@@ -46441,13 +46495,13 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1569532379}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -46456,13 +46510,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1569532379}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -46612,6 +46666,18 @@ MonoBehaviour:
   lineRenderer: {fileID: 0}
   numPoints: 50
   timeStep: 0.1
+--- !u!114 &1569532379 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5205852628975890923, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569532370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!64 &1589644952
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -49881,13 +49947,13 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1898105382}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -49896,13 +49962,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1898105382}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50052,6 +50118,18 @@ MonoBehaviour:
   lineRenderer: {fileID: 0}
   numPoints: 50
   timeStep: 0.1
+--- !u!114 &1898105382 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 72179802957551834, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898105373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1910354106
 GameObject:
   m_ObjectHideFlags: 0
@@ -50470,13 +50548,13 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1984262962}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50485,13 +50563,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1984262962}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50641,6 +50719,18 @@ MonoBehaviour:
   lineRenderer: {fileID: 0}
   numPoints: 50
   timeStep: 0.1
+--- !u!114 &1984262962 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5291612458707634909, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984262953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2007507069
 GameObject:
   m_ObjectHideFlags: 0
@@ -50781,13 +50871,13 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2016731113}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50796,13 +50886,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2016731113}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50952,6 +51042,18 @@ MonoBehaviour:
   lineRenderer: {fileID: 0}
   numPoints: 50
   timeStep: 0.1
+--- !u!114 &2016731113 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1408114948514538275, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016731104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2021851888
 GameObject:
   m_ObjectHideFlags: 0
@@ -55995,13 +56097,13 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2032891158}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -56010,13 +56112,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2032891158}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -56166,6 +56268,18 @@ MonoBehaviour:
   lineRenderer: {fileID: 0}
   numPoints: 50
   timeStep: 0.1
+--- !u!114 &2032891158 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6384398379394257772, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032891149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2036870596
 GameObject:
   m_ObjectHideFlags: 0
@@ -57127,7 +57241,7 @@ PrefabInstance:
         type: 3}
       propertyPath: lineRenderer
       value: 
-      objectReference: {fileID: 1161996547}
+      objectReference: {fileID: 0}
     - target: {fileID: 5818948581065485286, guid: 42299aadd6818954289c8f673fbe756a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
