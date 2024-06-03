@@ -5577,10 +5577,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -5722,6 +5746,9 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
 --- !u!1001 &83754862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12215,10 +12242,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 134923670}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 134923670}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -12360,6 +12411,21 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
+--- !u!114 &134923670 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6654976343251151073, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134923661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &139200557
 GameObject:
   m_ObjectHideFlags: 0
@@ -18022,10 +18088,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -18167,6 +18257,9 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
 --- !u!1 &358016088
 GameObject:
   m_ObjectHideFlags: 0
@@ -27206,10 +27299,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -27351,6 +27468,9 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
 --- !u!1 &773595265
 GameObject:
   m_ObjectHideFlags: 0
@@ -32467,10 +32587,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -32612,6 +32756,9 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
 --- !u!1 &819054510
 GameObject:
   m_ObjectHideFlags: 0
@@ -36765,10 +36912,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1161996548}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1161996548}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -36910,6 +37081,27 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 1161996547}
+  numPoints: 50
+  timeStep: 0.1
+--- !u!120 &1161996547 stripped
+LineRenderer:
+  m_CorrespondingSourceObject: {fileID: 33590053190777780, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1161996548 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3663796779274786456, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161996539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1163484321
 GameObject:
   m_ObjectHideFlags: 0
@@ -37071,10 +37263,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -37216,6 +37432,9 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
 --- !u!1 &1190105009
 GameObject:
   m_ObjectHideFlags: 0
@@ -45163,10 +45382,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1426794567}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1426794567}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -45308,6 +45551,21 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
+--- !u!114 &1426794567 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6546837780004801123, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426794558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1449651466
 GameObject:
   m_ObjectHideFlags: 0
@@ -46182,10 +46440,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -46327,6 +46609,9 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
 --- !u!64 &1589644952
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47765,10 +48050,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1742940704}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnGrabbed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1742940704}
+        m_TargetAssemblyTypeName: ballFriction, Assembly-CSharp
+        m_MethodName: OnDropped
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -47910,6 +48219,21 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
+--- !u!114 &1742940704 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6300376828403544004, guid: 42299aadd6818954289c8f673fbe756a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6266786443856961131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742940695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666fc21c2be794a49891352b82d2d4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1748858833 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2254504247542753893, guid: 5dd0d17b62a62f745949943119656371,
@@ -49556,10 +49880,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -49701,6 +50049,9 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
 --- !u!1 &1910354106
 GameObject:
   m_ObjectHideFlags: 0
@@ -50118,10 +50469,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -50263,6 +50638,9 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
 --- !u!1 &2007507069
 GameObject:
   m_ObjectHideFlags: 0
@@ -50402,10 +50780,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -50547,6 +50949,9 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
 --- !u!1 &2021851888
 GameObject:
   m_ObjectHideFlags: 0
@@ -55589,10 +55994,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -55734,6 +56163,9 @@ MonoBehaviour:
   staticFriction: 0.3
   drag: 0.1
   angularDrag: 0.02
+  lineRenderer: {fileID: 0}
+  numPoints: 50
+  timeStep: 0.1
 --- !u!1 &2036870596
 GameObject:
   m_ObjectHideFlags: 0
@@ -56691,6 +57123,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1938344058}
     m_Modifications:
+    - target: {fileID: 3663796779274786456, guid: 42299aadd6818954289c8f673fbe756a,
+        type: 3}
+      propertyPath: lineRenderer
+      value: 
+      objectReference: {fileID: 1161996547}
     - target: {fileID: 5818948581065485286, guid: 42299aadd6818954289c8f673fbe756a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
