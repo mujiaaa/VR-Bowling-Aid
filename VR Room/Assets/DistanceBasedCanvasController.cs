@@ -138,7 +138,7 @@ public class DistanceBasedCanvasController : MonoBehaviour
         {
             // Determine ball recommendation based on weight
             string ballRecommendation = GetBallRecommendation(weight);
-            recommendationResult.text = $"Based on your weight, we recommend the {ballRecommendation} balls.";
+            recommendationResult.text = $"Based on the 10% weight rule, we recommend the {ballRecommendation} balls.";
             weightPrompt.SetActive(false);
             recommendationResult.gameObject.SetActive(true); // Show the recommendation result
         }
@@ -152,15 +152,19 @@ public class DistanceBasedCanvasController : MonoBehaviour
     {
         if (weight < 80)
         {
-            return "blue and yellow";
+            return "orange and purple";
         }
-        else if (weight < 230)
+        else if (weight < 120)
                 {
-            return "purple and white";
+            return "blue and white";
+        }
+        else if (weight < 160)
+                {
+            return "yellow and red";
         }
         else
         {
-            return "red and grey";
+            return "black and grey";
         }
     }
 }
