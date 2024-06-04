@@ -18,6 +18,6 @@ public class minMaxSliderValue : MonoBehaviour
     private void UpdateInputField(float value)
     {
         // Update the TMP_InputField text to show the slider's current value
-        inputField.text = Mathf.RoundToInt(value).ToString();; // Formats the float to 2 decimal places
+        inputField.text = Mathf.RoundToInt(value).ToString(); // Formats the float to 2 decimal places
     }
 }

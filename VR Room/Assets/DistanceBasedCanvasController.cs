@@ -154,11 +154,11 @@ public class DistanceBasedCanvasController : MonoBehaviour
         {
             return "orange and purple";
         }
-        else if (weight < 120)
+        else if (weight < 115)
                 {
             return "blue and white";
         }
-        else if (weight < 160)
+        else if (weight < 140)
                 {
             return "yellow and red";
         }

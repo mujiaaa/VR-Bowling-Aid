@@ -6,7 +6,7 @@ public class recommendUI : MonoBehaviour
 {
     public TMP_Text tMP_Text;
     public TMP_InputField inputField; // TMP InputField
-    // Start is called before the first frame update
+
     void Start()
     {
         
@@ -14,54 +14,40 @@ public class recommendUI : MonoBehaviour
 
     public void showText() 
     {
-
-        if (inputField.text == "light")
-        {
-            tMP_Text.text = "It is recommended that you use red and yellow";
-
-
+        float weight;
+        if (float.TryParse(inputField.text, out weight)){
+            string ballRecommendation = GetBallRecommendation(weight);
+            tMP_Text.text = $"Based on the 10% weight rule, we recommend the {ballRecommendation} balls.";
         }
-        else
-        if (inputField.text == "medium")
-        {
-            tMP_Text.text = "It is recommended that you use black and gray";
 
-        }
-        else
-        if (inputField.text == "heavy")
-        {
-
-            tMP_Text.text = "It is recommended that you use blue";
-        }
-        else 
-        {
-
-            int mnu = int.Parse(inputField.text);
-            if (mnu < 90)
-            {
-
-                tMP_Text.text = "It is recommended that you use red and yellow";
-
-            }
-            else if (mnu >= 90 && mnu < 100)
-            {
-                tMP_Text.text = "It is recommended that you use black and gray";
-
-            }
-            else if (mnu >= 130)
-            {
-                tMP_Text.text = "It is recommended that you use blue";
-
-            }
-
-        }
+    }
 
        
 
-    }
+    
     // Update is called once per frame
+    private string GetBallRecommendation(float weight)
+    {
+        if (weight < 80)
+        {
+            return "orange and purple";
+        }
+        else if (weight < 115)
+                {
+            return "blue and white";
+        }
+        else if (weight < 140)
+                {
+            return "yellow and red";
+        }
+        else
+        {
+            return "black and grey";
+        }
+    }
     void Update()
     {
         
     }
 }
+
