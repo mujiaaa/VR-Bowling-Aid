@@ -11904,7 +11904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &120642101
 Transform:
   m_ObjectHideFlags: 0
@@ -22244,7 +22244,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reset
+  m_text: switch
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -42754,13 +42754,14 @@ GameObject:
   - component: {fileID: 1220094596}
   - component: {fileID: 1220094599}
   - component: {fileID: 1220094600}
+  - component: {fileID: 1220094601}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1220094595
 RectTransform:
   m_ObjectHideFlags: 0
@@ -42825,10 +42826,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 23b1961d10b38412f95ba2c37e51ce8a, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 6
+      - m_Target: {fileID: 120642102}
+        m_TargetAssemblyTypeName: ToggleText, Assembly-CSharp
+        m_MethodName: ToggleTextDisplay
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -42882,7 +42883,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220094594}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23b1961d10b38412f95ba2c37e51ce8a, type: 3}
   m_Name: 
@@ -42908,7 +42909,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220094594}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 020b4ee176ec7483dbb77d9b0dcc0f34, type: 2}
   m_CullingMode: 0
@@ -42921,6 +42922,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1220094601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220094594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed21e04411a544121908dc212ae8135a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMesh1: {fileID: 1042918793}
+  textMesh2: {fileID: 1454240221}
 --- !u!1 &1233961356 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6221047823512660762, guid: a6f9bdd62d99a744ab9bbc8b3ff8f40b,
@@ -68705,7 +68720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 920921510}
   canvasObject: {fileID: 91448089329748447}
-  activationDistance: 3
+  activationDistance: 2.4
   fadeDuration: 0.8
   recommendationPrompt: {fileID: 477826927420757988}
   weightPrompt: {fileID: 2814365744654120206}
