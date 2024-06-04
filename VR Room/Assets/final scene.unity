@@ -13514,6 +13514,8 @@ RectTransform:
   - {fileID: 878919931}
   - {fileID: 1575112090}
   - {fileID: 1267413217}
+  - {fileID: 353364578}
+  - {fileID: 793737833}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -114.317, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -19974,17 +19976,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353364577}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.005571842, z: -0, w: 0.9999845}
+  m_LocalPosition: {x: 0, y: 0, z: -4.860993}
+  m_LocalScale: {x: 17.605795, y: 17.604698, z: 35.205032}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 316914660}
-  m_Father: {fileID: 1012088668}
+  m_Father: {fileID: 183031303}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 23.59225, y: 491.99994}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &358016088
@@ -21682,11 +21684,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Right Hand Tracking
-      objectReference: {fileID: 0}
-    - target: {fileID: 3133494152545806682, guid: 3f7511fbc40ae7a4b89c3298a3de199d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23621,9 +23618,9 @@ Transform:
   - {fileID: 920921511}
   - {fileID: 364578161}
   - {fileID: 712900737}
+  - {fileID: 935940901}
   - {fileID: 1048441850}
   - {fileID: 92641029}
-  - {fileID: 935940901}
   m_Father: {fileID: 1313711681}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &651831779
@@ -35424,17 +35421,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793737832}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.005571842, z: -0, w: 0.9999845}
+  m_LocalPosition: {x: 0, y: 0, z: -4.860993}
+  m_LocalScale: {x: 17.605795, y: 17.604698, z: 35.205032}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1454240218}
-  m_Father: {fileID: 1012088668}
+  m_Father: {fileID: 183031303}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 23.59225, y: 491.99994}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &800571398 stripped
@@ -37578,14 +37575,13 @@ GameObject:
   m_Component:
   - component: {fileID: 935940901}
   - component: {fileID: 935940902}
-  - component: {fileID: 935940903}
   m_Layer: 0
   m_Name: Hand Visualizer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &935940901
 Transform:
   m_ObjectHideFlags: 0
@@ -37613,7 +37609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9813c68d7d6f44282ace8bd2d1fd46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UseOptimizedControls: 0
+  m_UseOptimizedControls: 1
   m_LeftHandMesh: {fileID: 1048441851}
   m_RightHandMesh: {fileID: 92641028}
   m_HandMeshMaterial: {fileID: 2100000, guid: 613690cd962241049a0ec289a6ff835e, type: 2}
@@ -37624,18 +37620,6 @@ MonoBehaviour:
   m_VelocityPrefab: {fileID: 8538602047018081646, guid: 629fd7882ec6bfc499a5fcf20035282b,
     type: 3}
   m_VelocityType: 2
---- !u!114 &935940903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935940900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd65cb8a4b261f34a969e4b0a69791a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &943584772
 GameObject:
   m_ObjectHideFlags: 0
@@ -38700,8 +38684,6 @@ RectTransform:
   - {fileID: 172864545}
   - {fileID: 381943393}
   - {fileID: 139673294}
-  - {fileID: 353364578}
-  - {fileID: 793737833}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -113.678, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -39814,11 +39796,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Left Hand Tracking
-      objectReference: {fileID: 0}
-    - target: {fileID: 773853689519989575, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51312,7 +51289,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454240217}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e575155fb4d9405b892c7156d8fde45, type: 3}
   m_Name: 

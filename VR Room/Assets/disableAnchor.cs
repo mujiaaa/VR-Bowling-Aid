@@ -7,6 +7,7 @@ public class DisableAnchor : MonoBehaviour
     public GameObject player;
     public float activationDistance = 5.0f;
     public GameObject collider;
+    // public GameObject instructionDisplay;
 
     private bool isWithinRange = false;
 
@@ -42,6 +43,7 @@ public class DisableAnchor : MonoBehaviour
             {
                 isWithinRange2 = true; // Set flag to true as player is now within range
                 teleportAnchor2.SetActive(false);
+                // instructionDisplay.SetActive(true);
             }
         }
         else if (isWithinRange2) // Check if player was previously within range but now is not
