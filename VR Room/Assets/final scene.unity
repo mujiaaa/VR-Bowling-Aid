@@ -39300,9 +39300,9 @@ MonoBehaviour:
   textMesh: {fileID: 1042918793}
   sentences:
   - Welcome to the game!
-  - Use the arrow keys to move around
-  - Press the space bar to jump
-  - Collect the coins to win the game
+  - Use the grip buttons to pickup the ball
+  - Use triggers to interact with the UI
+  - Knock down all pins to win the game
   - Good luck!
 --- !u!1 &1045048772
 GameObject:
