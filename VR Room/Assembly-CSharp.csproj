@@ -94,6 +94,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
     <Compile Include="Assets/Script/DPL/rig.cs" />
+    <Compile Include="Assets/minMaxSliderValue.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Conditions/OnButtonPress.cs" />
     <Compile Include="Assets/Script/UIManager.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="Assets/_Course Library/Scripts/Actions/DestroyObject.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/Whisper/SaveWav.cs" />
+    <Compile Include="Assets/ColliderTMPManager.cs" />
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/Stream Response/StreamResponse.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/ToggleParticle.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
