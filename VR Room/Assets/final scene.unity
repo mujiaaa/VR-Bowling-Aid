@@ -39302,7 +39302,7 @@ MonoBehaviour:
   - Welcome to the game!
   - Use the grip buttons to pickup the ball
   - Use triggers to interact with the UI
-  - Knock down all pins to win the game
+  - Aim to hit as many pins as you can
   - Good luck!
 --- !u!1 &1045048772
 GameObject:
