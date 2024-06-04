@@ -149,6 +149,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/Whisper/Whisper.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
+    <Compile Include="Assets/guide min.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Conditions/OnPull.cs" />
     <Compile Include="Assets/_Course Library/Scripts/Actions/PlayQuickSound.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
