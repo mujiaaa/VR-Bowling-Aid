@@ -7,34 +7,23 @@ using System.Collections.Generic;
 
 public class ToggleText : MonoBehaviour
 {
-    public TextMeshPro textMesh1;
-    public TextMeshPro textMesh2;
-    private int currentText = 0;
+    public GameObject basic;
+    public GameObject advanced;
+    public Button toggleButton;
 
-    public void ToggleTextDisplay()
-    {
-        if (currentText == 0)
-        {
-            textMesh1.gameObject.SetActive(true);
-            textMesh2.gameObject.SetActive(false);
-            currentText = 1;
-        }
-        else
-        {
-            textMesh1.gameObject.SetActive(false);
-            textMesh2.gameObject.SetActive(true);
-            currentText = 0;
-        }
-    }
-    // Start is called before the first frame update
     void Start()
     {
-        
+        basic.SetActive(true);
+        advanced.SetActive(false);
+        if (toggleButton != null)
+        {
+            toggleButton.onClick.AddListener(Toggle);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Toggle()
     {
-        
+        basic.SetActive(!basic.activeSelf);
+        advanced.SetActive(!advanced.activeSelf);
     }
 }
