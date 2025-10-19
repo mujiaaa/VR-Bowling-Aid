@@ -18,7 +18,9 @@ Optional body tracking support (enable in Quest settings)
 ## Installation
 
 Download either `build3.apk` or `handtracking3.apk` from the Releases page.  
-Install the APK onto your Quest device using SideQuest.
+Install the APK onto your Quest device using SideQuest or adb: 
+
+``adb install build3.apk``
 
 For the hand-tracking version:
 Make sure Hand and Body Tracking are enabled in your Quest system settings.
@@ -26,8 +28,4 @@ Play in a well-lit environment for best tracking results.
 
 ## Team Members
 
-Mai Dang
-Mujia Chen
-Megumi Ondo
-Wenxuan Xu
-Zheli Chen
+Mai Dang, Mujia Chen, Megumi Ondo, Wenxuan Xu, Zheli Chen
