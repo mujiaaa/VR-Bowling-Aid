@@ -9,18 +9,16 @@ Players can enjoy a realistic bowling experience using either controllers or han
 
 Two play modes:
 
-build3.apk – Standard version (controller-only)
-handtracking3.apk – Supports both controller and hand tracking input
+- **build3.apk** – Standard version (controller-only)  
+- **handtracking3.apk** – Supports both controller and hand tracking input  
 
 Compatible with Meta Quest and Quest 2/3
 Optional body tracking support (enable in Quest settings)
 
 ## Installation
 
-Download either build3.apk or handtracking3.apk from the Releases page.
-Install the APK onto your Quest device using SideQuest or adb:
-
-``adb install build3.apk``
+Download either `build3.apk` or `handtracking3.apk` from the Releases page.  
+Install the APK onto your Quest device using SideQuest.
 
 For the hand-tracking version:
 Make sure Hand and Body Tracking are enabled in your Quest system settings.
